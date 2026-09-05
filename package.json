@@ -1,0 +1,13 @@
+{
+  "name": "legaltech-faq-suggestions",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/faq_service.ts",
+    "test": "tsx src/faq_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "openai": "^4.0.0", "zod": "^3.0.0", "tsx": "^4.0.0" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0" }
+}
